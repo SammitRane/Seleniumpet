@@ -3,7 +3,7 @@ import sys
 import core.main as app
 from selenium.webdriver.common.by import By
 
-#This test case will test the initialization of chromedriver
+#This test case will test the initialization of a chromedriver
 def test_initdriver():
     driver = app.initializeChromeDriver()
     assert driver is not None
